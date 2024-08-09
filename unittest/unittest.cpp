@@ -13,9 +13,9 @@ TEST(testBinaryGap, testPosNums){
     EXPECT_EQ(3, solution(138));
 }
 
-// Expect zero because binary gap function returns zero for negative numbers
+// fails negative num tests
 TEST(testBinaryGap, testNegNums){
-    EXPECT_EQ(2, solution(-100));
+    EXPECT_EQ(2, solution(-200));
 }
 
 TEST(testCyclicRotation, posVector){
