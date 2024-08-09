@@ -1,7 +1,4 @@
 # TestBenchTask
-======================
-
-A unit testing benchmarking project.
 
 ## Table of Contents
 -----------------
