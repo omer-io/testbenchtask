@@ -5,7 +5,7 @@
 using namespace std;
 
 int solution(int N){
-    string str = bitset<8>(N).to_string();
+    string str = bitset<32>(N).to_string();
     int currentCount = 0;
     int maxCount = 0;
     for(int i = 0; i < str.length(); i++){
