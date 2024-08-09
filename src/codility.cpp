@@ -22,7 +22,6 @@ int solution(int N){
         }
     }
     return maxCount;
-
 }
 
 vector<int> solution(vector<int> &A, int K){

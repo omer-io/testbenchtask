@@ -1,6 +1,3 @@
-cmake_minimum_required(VERSION 3.30.1)
-project(bmtask)
-
 include(ExternalProject)
 
 ExternalProject_Add(benchmark
@@ -17,7 +14,7 @@ ExternalProject_Get_Property(benchmark source_dir)
 include_directories(${source_dir}/include)
 link_directories(${binary_dir}/src)
 
-add_executable(bmtask benchmark.cpp)
+add_executable(bm benchmark.cpp)
 
-add_dependencies(bmtask benchmark)
-target_link_libraries(bmtask ${binary_dir}/src/libbenchmark.a pthread)
+add_dependencies(bm benchmark)
+target_link_libraries(bm ${binary_dir}/src/libbenchmark.a pthread codility)

@@ -3,7 +3,7 @@
 
 TEST(testBinaryGap, testPosNum){
     EXPECT_EQ(1, solution(10));
-    EXPECT_EQ(1, solution(12));
+    EXPECT_EQ(0, solution(12));
     EXPECT_EQ(3, solution(138));
 }
 
