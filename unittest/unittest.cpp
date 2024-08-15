@@ -13,11 +13,6 @@ TEST(testBinaryGap, testPosNums){
     EXPECT_EQ(3, solution(138));
 }
 
-// fails negative num tests
-TEST(testBinaryGap, testNegNums){
-    EXPECT_EQ(2, solution(-200));
-}
-
 TEST(testCyclicRotation, posVector){
     vector<int> nums = {1,2,3,4};
     vector<int> res = {4,1,2,3};

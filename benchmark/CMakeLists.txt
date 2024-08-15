@@ -9,12 +9,7 @@ ExternalProject_Add(benchmark
 )
 
 ExternalProject_Get_Property(benchmark binary_dir)
-ExternalProject_Get_Property(benchmark source_dir)
-
-include_directories(${source_dir}/include)
-link_directories(${binary_dir}/src)
 
 add_executable(bm benchmark.cpp)
 
-add_dependencies(bm benchmark)
 target_link_libraries(bm ${binary_dir}/src/libbenchmark.a pthread codility)

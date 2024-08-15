@@ -4,15 +4,14 @@
 #include<vector>
 using namespace std;
 
-int main(int argc, char **argv){
-    if (argc < 2) {
-        cout << "Provide an input to compute binary gap." << endl;
-        return 1;
-    }
-    int input = atoi(argv[1]);
-    cout << solution(input) << endl;
+int main(){
+    cout << "Enter a number to compute binary gap: ";
+    int input;
+    cin >> input;
+    cout << "Binary Gap of " << input << " is " << solution(input) << endl;
     vector<int> nums = {1,2,3,4};
-    vector<int> shifted = solution(nums, 1);
+    vector<int> shifted = solution(nums, 2);
+    cout << "1, 2, 3, 4 rotated 2 times is ";
     for (int num : shifted) {
     cout << num << " ";
     }
