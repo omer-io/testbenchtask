@@ -20,8 +20,9 @@ To build and run the project, follow these steps:
 2. Create a build directory: `mkdir build`
 3. Navigate to the build directory: `cd build`
 4. Run CMake: `cmake ..`
-5. Build the project: `make`
-6. Run unit tests: `./unittest/test`
-7. Run benchmarks: `./benchmark/bm`
+5. To disable tests and benchmarks run CMake with options: `cmake .. -DENABLE_UNITTEST=OFF -DENABLE_BENCHMARK=OFF`
+6. Build the project: `make`
+7. Run unit tests: `./unittest/test`
+8. Run benchmarks: `./benchmark/bm`
 
 
