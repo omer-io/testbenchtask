@@ -1,3 +1,2 @@
-set(LIB_SOURCES codility.cpp)
-add_library(codility STATIC ${LIB_SOURCES})
+add_library(codility STATIC codility.cpp)
 target_include_directories(codility PUBLIC ${CMAKE_SOURCE_DIR}/include)

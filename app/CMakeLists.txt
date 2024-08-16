@@ -1,3 +1,2 @@
-set(APP_SOURCES mainapp.cpp)
-add_executable(main ${APP_SOURCES})
+add_executable(main mainapp.cpp)
 target_link_libraries(main codility)

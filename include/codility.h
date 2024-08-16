@@ -1,4 +1,6 @@
 // codility.h
+#pragma once
+
 #include <vector>
-int solution(int);
-std::vector<int> solution(std::vector<int>&, int);
+int solution(int);  //  BinaryGap
+std::vector<int> solution(std::vector<int>&, int);  //  CyclicRotation
