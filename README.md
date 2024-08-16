@@ -24,5 +24,6 @@ To build and run the project, follow these steps:
 6. Build the project: `make`
 7. Run unit tests: `./unittest/test`
 8. Run benchmarks: `./benchmark/bm`
+9. Run main app: `./app/main`
 
 
