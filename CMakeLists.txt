@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.30.1)
-project(benchmark)
+project(testbench)
 
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
