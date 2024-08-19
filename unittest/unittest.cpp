@@ -40,7 +40,7 @@ TEST(testCyclicRotation, extreme){
     EXPECT_EQ(res, solution(nums, 100));
 }
 
-int main(int argc, char** argv) {
-    testing::InitGoogleTest(&argc, argv);
+int main() {
+    testing::InitGoogleTest();
     return RUN_ALL_TESTS();
 }
